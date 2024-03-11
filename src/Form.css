@@ -1,0 +1,45 @@
+.formAddBox,
+.formEditGroup {
+  padding: 20px;
+  background-color: #cff2c9;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.Form input {
+  border: none;
+  padding: 5px;
+}
+
+.Form input:focus {
+  outline: none;
+}
+
+.Form input[type="submit"] {
+  margin-top: 8px;
+  padding: 12px;
+  background-color: #4aff2d;
+  border-radius: 5px;
+
+  align-self: end;
+  cursor: pointer;
+}
+
+.Form input[type="submit"]:hover {
+  text-decoration: underline;
+}
+
+input:disabled {
+  background: #e2e2e2;
+}
+
+.btnDelete {
+  background-color: #ce0c0c;
+  color: white;
+}
